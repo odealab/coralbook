@@ -1,0 +1,540 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={A Minimal Book Example},
+            pdfauthor={The coral team, O'Dea lab},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{{#1}}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\ImportTok}[1]{{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{{#1}}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{{#1}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{{#1}}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{{#1}}}}
+\newcommand{\BuiltInTok}[1]{{#1}}
+\newcommand{\ExtensionTok}[1]{{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{{#1}}}
+\newcommand{\RegionMarkerTok}[1]{{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\NormalTok}[1]{{#1}}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{A Minimal Book Example}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{The coral team, O'Dea lab}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{2016-12-30}
+
+\usepackage{booktabs}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter{Prerequisites}\label{prerequisites}
+
+This is a \emph{sample} book written in \textbf{Markdown}. You can use
+anything that Pandoc's Markdown supports, e.g., a math equation
+\(a^2 + b^2 = c^2\).
+
+For now, you have to install the development versions of
+\textbf{bookdown} from Github:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{devtools::}\KeywordTok{install_github}\NormalTok{(}\StringTok{"rstudio/bookdown"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+Remember each Rmd file contains one and only one chapter, and a chapter
+is defined by the first-level heading \texttt{\#}.
+
+To compile this example to PDF, you need to install XeLaTeX.
+
+\chapter{Introduction}\label{intro}
+
+You can label chapter and section titles using \texttt{\{\#label\}}
+after them, e.g., we can reference Chapter \ref{intro}. If you do not
+manually label them, there will be automatic labels anyway, e.g.,
+Chapter \ref{methods}.
+
+Figures and tables with captions will be placed in \texttt{figure} and
+\texttt{table} environments, respectively.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{par}\NormalTok{(}\DataTypeTok{mar =} \KeywordTok{c}\NormalTok{(}\DecValTok{4}\NormalTok{, }\DecValTok{4}\NormalTok{, .}\DecValTok{1}\NormalTok{, .}\DecValTok{1}\NormalTok{))}
+\KeywordTok{plot}\NormalTok{(pressure, }\DataTypeTok{type =} \StringTok{'b'}\NormalTok{, }\DataTypeTok{pch =} \DecValTok{19}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{coralbook_files/figure-latex/nice-fig-1} 
+
+}
+
+\caption{Here is a nice figure!}\label{fig:nice-fig}
+\end{figure}
+
+Reference a figure by its code chunk label with the \texttt{fig:}
+prefix, e.g., see Figure \ref{fig:nice-fig}. Similarly, you can
+reference tables generated from \texttt{knitr::kable()}, e.g., see Table
+\ref{tab:nice-tab}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{knitr::}\KeywordTok{kable}\NormalTok{(}
+  \KeywordTok{head}\NormalTok{(iris, }\DecValTok{20}\NormalTok{), }\DataTypeTok{caption =} \StringTok{'Here is a nice table!'}\NormalTok{,}
+  \DataTypeTok{booktabs =} \OtherTok{TRUE}
+\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{table}
+
+\caption{\label{tab:nice-tab}Here is a nice table!}
+\centering
+\begin{tabular}[t]{rrrrl}
+\toprule
+Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
+\midrule
+5.1 & 3.5 & 1.4 & 0.2 & setosa\\
+4.9 & 3.0 & 1.4 & 0.2 & setosa\\
+4.7 & 3.2 & 1.3 & 0.2 & setosa\\
+4.6 & 3.1 & 1.5 & 0.2 & setosa\\
+5.0 & 3.6 & 1.4 & 0.2 & setosa\\
+\addlinespace
+5.4 & 3.9 & 1.7 & 0.4 & setosa\\
+4.6 & 3.4 & 1.4 & 0.3 & setosa\\
+5.0 & 3.4 & 1.5 & 0.2 & setosa\\
+4.4 & 2.9 & 1.4 & 0.2 & setosa\\
+4.9 & 3.1 & 1.5 & 0.1 & setosa\\
+\addlinespace
+5.4 & 3.7 & 1.5 & 0.2 & setosa\\
+4.8 & 3.4 & 1.6 & 0.2 & setosa\\
+4.8 & 3.0 & 1.4 & 0.1 & setosa\\
+4.3 & 3.0 & 1.1 & 0.1 & setosa\\
+5.8 & 4.0 & 1.2 & 0.2 & setosa\\
+\addlinespace
+5.7 & 4.4 & 1.5 & 0.4 & setosa\\
+5.4 & 3.9 & 1.3 & 0.4 & setosa\\
+5.1 & 3.5 & 1.4 & 0.3 & setosa\\
+5.7 & 3.8 & 1.7 & 0.3 & setosa\\
+5.1 & 3.8 & 1.5 & 0.3 & setosa\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+You can write citations, too. For example, we are using the
+\textbf{bookdown} package \citep{R-bookdown} in this sample book, which
+was built on top of R Markdown and \textbf{knitr} \citep{xie2015}.
+
+\section{Setting}\label{setting}
+
+`\texttt{re-written\ from\ @Guzman\_etal\_2005,\ who\ cited\ nobody:}The
+province of Bocas del Toro is located in western Panama (8°30-9°40 N,
+82°56-81°18 W, xxxfig. map). It borders to the west with Costa Rica, to
+the south and east with the provinces of Chiriquí and Veraguas,
+respectively, and to the north with the Caribbean sea.
+
+\texttt{Generally\ re-written\ from\ @Cramer\_2013,\ who\ cited\ nobody:}
+The archipelago of Bocas del Toro has seven medium-sized islands
+(\texttt{re-writen\ from\ @Schloder\_etal\_2013\ who\ cited\ nobody}),
+estuaries and beaches.
+
+\section{Geology}\label{geology}
+
+\texttt{@Guzman\_etal\_2005:}About 20 Ma ago--before the isthmus of
+Panama formed--the Bocas del Toro Basin was a deep tropical marine bed
+(Coates and Jackson 1998, cited in \citet{Guzman_etal_2005}). Volcanoes
+were active between 16-10 Ma and many parts of the archipelago have
+igneous and sedimentary rocks. When volcanic activity ceased, marine
+transgressions deposited a sedimentary sequence near the coast, adequate
+for (a) diverse and abundant marine fauna to settle, (b) new species of
+reef coral and benthic foraminifers to originate, and (c) reefs to form
+(Coates and Jackson 1998, Collins et al. 1996, cited in
+\citet{Guzman_etal_2005}).
+
+Sea level changed substantially over the past 9500 years and strongly
+shaped the Bocas del Toro archipelago in important ways, and affected
+the bathymetry, topography and separation between islands and the
+mainland.
+
+The current shape of the archipelago settled when sea level stabilized
+around 6000 years ago, in the mid-Holocene (Summers et al. 1997, cited
+in \citet{Guzman_etal_2005}). Evidenced of this was found in Isla Colon,
+where multiple corals from a fossil reef dated within the mid-Holocene
+consistently \citep{Fredston_etal_2013}.
+
+Today, reefs range from patch to fringing and from environments exposed
+to off-shore swell--typically, with sandy beaches or reef flats--to
+environments protected into lagoons--typically, with fringing mangroves
+and extensive seagrass beds.
+
+\section{Geography}\label{geography}
+
+\texttt{re-written\ from\ @Cramer\_2013,\ who\ cited\ nobody:}Because
+mountain ranges divide each side the isthmus of Panama, the drainage
+basins and microclimates are distinct towards the Pacific and Caribbean.
+\texttt{re-writen\ from\ @Guzman\_etal\_2005:}Near the Caribbean
+littoral and in Bocas del Toro, a mountain chain (50-400 m high) runs
+parallel to the coast and closer than 3.5 km from Chiriquí and Bahía
+Almirante lagoons (xxx IGNTG 1988 cited in \citet{Guzman_etal_2005}).
+
+Chiriquí and Bahía Almirante are the two semi-enclosed lagoons in which
+the archipelago of Bocas del Toro is divided. They are connected through
+mangrove channels and they both open to the ocean (Carruthers et al.
+2005, D'Croz et al. 2005, cited in \citet{Schloder_etal_2013}).
+
+\texttt{re-writen\ from\ @Guzman\_etal\_2005:}Both lagoons receive
+several rivers. Because the distance between the mountains and coast is
+short, river flow after the rains increases immediately. This forms a
+lens of superficial water that is approximately 0.5 m thick and rich in
+suspended organic material. This affects both lagoons but more strongly
+to because the large Cricamola river feeds directly into its
+lagoon\texttt{(re-writen\ from\ @Guzman\_etal\_2005\ and\ @Cramer\_2013)}.
+Yet, Bahía Almirante receives creeks that drain the floodplain of the
+Changuinola River (northwest of the bay) through extensive banana
+plantations and input sediments and pollutants (Guzmán and Jimenez 1992,
+Guzmán and Garcia 2002, Guzmán 2003, cited in \citet{Cramer_2013}).
+
+\section{Climate}\label{climate}
+
+The climate is typical of the wet Caribbean. Precipitation in Bocas del
+Toro is 330 cm annually (Cubit et al. 1989, Kaufmann and Thompson 2005,
+cited in \citet{Cramer_2013}).
+
+The dry and rainy seasons are not clearly defined. Generally, rainfall
+is lower in March and between September-October and higher in July and
+December (Kaufman and Thompson, cited in \citet{Guzman_etal_2005})
+
+\section{Vegetation}\label{vegetation}
+
+The vegetation is mainly banana plantations, clear-felled cattle lands
+and rainforest on the mainland and lowland wet tropical-forest on the
+islands (xxx Carruthers et al. 2005, xxxCramer et al. 2012, xxx Cramer
+2013 cited in \citet{Schloder_etal_2013}).
+
+\section{Oceanography}\label{oceanography}
+
+\texttt{re-writen\ from\ @Guzman\_etal\_2005:}The continental shelf in
+Bocas del Toro is narrow and the maximum depth along the coast ranges
+20-50 m. Surf and tides are more important outside than inside the
+archipelago. Tides may be mixed, semidiurnal or diurnal. Their amplitude
+ranges below 0.5 m and are higher than usual during the dry season
+because of the Northeast winds (xxx Glynn 1972 cited in
+\citet{Guzman_etal_2005}).
+
+\texttt{re-writen\ from\ @Guzman\_etal\_2005:}The main current that
+influences the coast of Panama flows from West to East and, because it
+comes closer to its coast, it may affect Bocas del Toro more strongly
+from June-August(DMA 1988; Greb et al. 1996, cited in
+\citet{Guzman_etal_2005}).
+
+Winds that more strongly influence the archipelago blow from the North
+and Northeast but their effect on tides and surf is reduced by the
+northern islands and reefs (DMA 1988, cited in
+\citet{Guzman_etal_2005}).
+
+\section{Caribbean reefs}\label{caribbean-reefs}
+
+Since the 1970s, coral reefs in the Caribbean changed massively: the
+cover of live corals decreased and that of macroalgae increased in
+unprecedented manner \citep{Jackson_etal_2014}(Aronson and Precht 1997,
+Greenstein et al. 1998, cited in \citet{Fredston_etal_2013}). This is
+anomalous (Silvia Earle, 1972) and indicates that reefs have severely
+declined \citep{Jackson_etal_2014}. This degradation was ultimately
+caused by human impacts, strongly linked to the rocketing growth of
+human population, tourism and shipping, via overexplotation of natural
+resources and spread of disease \citep{Jackson_etal_2014}. The most
+likely mechanisms and most evident proximate causes unfolded in the
+following sequence.
+
+\texttt{re-writen\ from\ @Jackson\_etal\_2014,\ excecutive\ summary,\ who\ cited\ nobody\ (need\ to\ go\ to\ the\ extended\ version\ for\ references:}Between
+mid 1970s and early 1980s, enormous shipping through the Panama Canal
+facilitated alien species, including disease, to invade the Caribbean
+sea. White band disease infected and massively killed \emph{Acropora}
+corals. An unidentified disease also infected and massively killed
+\emph{Diadema} sea urchins. \emph{Diadema} and parrot fish are both
+hervivores and key in regulating the balance between macroalgae and
+corals in reefs. Because humans had overexploited parrot fish, when
+\emph{Diadema} died-off, macroalgae bloomed and reefs--originally
+dominated by corals--became dominated by macroalge. This phase-shift
+peaked by mid 1990s and continues today. Recently, greater overfishing,
+pollution, numbers of tourists and of extreeme warming events have
+worsen coral reefs.
+
+\section{Human ocupation and impact}\label{human-ocupation-and-impact}
+
+Humans have potentially affected land and sea in Bocas del Toro ever
+since sea level stabilized around its current position and coral reefs
+developed but human impact here has become dramatic only recently
+\citep{Cramer_2013}.
+
+Humans have cleared the land and fished marine coasts in Central America
+since around 10,000 years ago \citep{Cramer_2013}. By then, they had
+already occupied the Pacific coast of Panama \citep{Fredston_etal_2013}.
+In Bocas del Toro, however, the earliest hunters and gatherers were
+recorded around 5000 years ago (Ranere and Cooke 1991, Cooke 2005, cited
+in \citet{Fredston_etal_2013}) and the earliest human settlements and
+fishing activities, around 1500 years ago (Wake et al. 2004, 2013, cited
+in \citet{Fredston_etal_2013}).
+
+When the Spanish arrived to America, approximately 500 years ago, human
+population in Bocas del Toro had depleted the largest animals from
+mangroves, seagrass meadows, and coral reefs (Wing and Wing 2001,
+Pandolfi et al. 2003, cited in \citet{Cramer_2013}).
+
+Then, the most catastrophic mortality that resulted from European
+contact was that of indigenous peoples. Population recovered pre-contact
+levels in the 1800s \citep{Cramer_2013} but it was distributed sparsely
+until 1900s--because the orography and climate of Bocas del Toro was
+challenging for human settlement and agriculture--(\citet{Cramer_2013}).
+Soon after, human activities caused rapid environmental change and had
+the greatest impact on ecosystems in Bocas del Toro.
+
+\texttt{re-writen\ from\ @Seemann\_etal\_2014:}Since 1915, mainland and
+islands in Bocas del Toro have been deforested to grow and export
+bananas. Channels have been dredged and ships have been departing from
+Almirante port, crossing Bahia Almirante and exiting into the Caribbean
+sea through Bocas del Drago (xxx Greb et al. 1996, cited in
+\citet{Seemann_etal_2014}). Cumulatively, deforestation, dredging and
+shipping has caused erosion, sediments, nutrients and pollution to
+increase (xxx Berry et al. 2013, xxx Burke et al. 2004, , cited in
+\citet{Seemann_etal_2014}). Since 1993, population and tourism have
+dramatically increased (xxx Guerrón-Montero 2005, cited in
+\citet{Seemann_etal_2014}), coasts extensively developed, marine
+resources overfished and destructive fishing methods used. Consequently,
+ecosystems have substantially changed over the past few decades, (xxx
+Saric 2005, cited in \citet{Seemann_etal_2014}).
+
+\section{Ecology}\label{ecology}
+
+A detailed description of the ecological structure of coral reefs in
+Bocas del Toro is available elsewhere (including Laguna de Chiriqui:
+\citet{Guzman_etal_1998_a}, Islas Bastimentos, Solarte, Carenero and
+Colón: \citet{Guzman_etal_1998_b}, islas Pastores, Cristóbal, Popa and
+Cayo Agua: \citet{Guzman_etal_1999}, and Península Valiente:
+\citet{Guzman_etal_2001}).
+
+\subsection{Bahia Almirante}\label{bahia-almirante}
+
+Bahía Almirante hosts 53\% (33) of all the species of reef coral found
+in Panama \citep[\citet{Guzman_etal_1998_a}]{Guzman_etal_1999}. In this
+bay, reefs are more extensively developed than in Chiriqui Lagoon--which
+receives river runoff more directly (Guzmán and Guevara 1998a, D'Croz et
+al. 2005, Guzmán et al. 2005, \citet{Cramer_2013}). However, vertical
+development is limited to a maximum depth of 23 m, below that light is
+insufficient for corals to grow (Guzman\_etal\_1998\_a). Around the
+beginning of the 21st century, coral cover ranged 20-50\% and averaged
+35\% \citep{Guzman_etal_1998_a}. Species distributed vertically
+similarly across the bay: \emph{Porites furcata} (90\% cover) dominated
+down to 2 m depth and \emph{Agaricia tenuifolia} (40\% cover) from 2-6
+m. The depth range from 6-15 m was composed by \emph{A. tenuifolia},
+\emph{Madracis mirabilis}, and \emph{Siderastrea siderea} (15\%, 7\% and
+5\%, respectively). \emph{S. siderea} and coralline algae dominated
+deeper waters. Sponges where the second most important sessile organism
+and were found in all reefs.
+
+\subsection{Isla Colon}\label{isla-colon}
+
+Facing Bahia Almirante and along the leeward coast of Isla Colon, reefs
+form an almost continuous barrier \citep{Guzman_etal_1998_a}. Around the
+center of the island, corals and algae covered 26.9\% and 21.4\% of the
+reefs in mid 2000s, while richness of reef coral species was 17
+\citep{Guzman_etal_2005}.
+
+\subsection{Recent status}\label{recent-status}
+
+More recently, between 2010-2011, cover and richness of reef corals in
+Bahia Almirante was \textless{}10\% and 7 species, respectively
+\citep{Seemann_etal_2014}. \emph{Porites furcata} was dominant reef
+coral and adult and carnivorous fish species were absent
+\citep{Seemann_etal_2014}.
+
+\subsection{Main environmental factors affecting the
+ecology}\label{main-environmental-factors-affecting-the-ecology}
+
+The ecology of coral reefs in Bahia Almirante, in particular, is
+strongly influenced by the Changuinola river. Its plumes enter the bay
+through an inlet at Boca del Drago \citep{Seemann_etal_2014}. (This,
+however, does not explain why Punta Caracol is healthier than Casa
+Blanca and has \emph{Acropora cervicornis} which is assumed to be highly
+sensitive to sedimentation.)
+
+The environmental pressure of riverine waters can accumulate with other
+factors and impact reefs ecology. For example, coral bleaching in
+September 2010 killed corals worldwide. Coral mortality and degradation
+of reef ecosystems was particularly extensive in Bocas del Toro (NOAA
+2010, cited in \citet{Seemann_etal_2014}). Here, not only sea
+temperatures increased but also salinity lowered because seasonal rain
+fall was high and oxygen depleted because water exchange was limited
+(Kaufmann and Thompson 2005, cited in \citet{Seemann_etal_2014}).
+
+\section{Shifts in ecology}\label{shifts-in-ecology}
+
+Until recently, \emph{Acropora cervicornis} (Lamarck, 1816) and
+\emph{Acropora palmata} (Lamarck, 1816) had dominated fringing or
+lagoonal reefs in Bocas del Toro ever since around 2 Ma. Importantly,
+they dominated since the mid-Holocene (\textasciitilde{}8000-4000 years
+ago, xxxref), when sea level stabilized around its current position and
+reefs comparable to modern reefs developed (Aronson et al. 2004, Klaus
+et al. 2011, Cramer et al. 2012, Cramer 2013, Fredston-Hermann et al.
+2013, cited in \citet{Schloder_etal_2013}).
+
+For example, Lennond reef--a mid-Holocene reef from the leeward side of
+Isla Colon, in Bahia Almirante--was dominated by \emph{A. cervicornis},
+\emph{Montastraea ``annularis''} (Ellis and Solander, 1786), and
+\emph{Porites furcata} \citep{Fredston_etal_2013}. These assembly of
+species suggests that Lennond reef was 0-15 m deep (Mesolella 1967,
+Aronson et al. 2004, cited in \citet{Fredston_etal_2013}). This is
+considering that some species inhabit shallower waters than typical if
+the environment is protected. For example, \emph{A. cervicornis} occurs
+as deep as 25 m in exposed environments or as shallow as 5 m in
+protected environments (Rützler and Macintyre 1982, Aronson and Precht
+2001, cited in \citet{Fredston_etal_2013}).
+
+\emph{Acropora} and \emph{Porites} corals also dominated reefs in Bocas
+del Toro during the late-Holocene (\textasciitilde{}4000-0 years ago,
+xxxref) (Aronson et al. 2004, Cramer et al. 2012, cited in
+\citet{Fredston_etal_2013}). Today, \emph{Porites} remains abundant and
+\emph{Agaricia tenuifolia} (Dana, 1846) became important too (Guzman and
+Guevara 1998) but \emph{Acropora} has catastrophically declined (Cramer
+et al. 2012, cited in \citet{Fredston_etal_2013}).
+
+If the ecological change observed in coral reefs from Bocas del Toro is
+analysed in the context of the history of human occupation and impact,
+it seems likely that water clarity had an importat role. Intensive land
+clearing resulted in water to become more turbid, so \emph{Acropora}
+corals (Rogers 1990, \citet{Cramer_etal_2012}), which love light were
+replaced by \emph{Porites} and \emph{Agaricia} corals that resist
+turbid-water better \citep{Cramer_etal_2012}.
+
+\section{Resilience}\label{resilience}
+
+Once they degrade severely, reefs can struggle to recover and,
+eventually, reefs loose important ecosystem functions. Reefs from Bocas
+del Toro were experimentally degraded and two years after their fate was
+unclear: some recovered to pre-disturbance conditions but some did not
+\citep{Schloder_etal_2013}. The impact on ecosystem functions may not be
+immediate. Dead dead coral rubble can still host sessile infauna but
+eventually the three-dimensional structure of the reef flattens and
+looses biodiversity \citep{Nelson_etal_2016}. Reefs with high
+three-dimensional structure are more resilient to bleaching (ref Graham
+2015?).
+
+In Bocas del Toro and many reefs worldwide, the greater builder of
+three-dimensional has historically been\_Acropora\_ corals (xxx ref).
+Because \emph{Acropora} is almost extinct in the Caribbean (xxx ref
+Cramer?), the resilience of coral reefs here and in Bocas del Toro in
+particular is seriously compromised.
+
+\bibliography{packages,references}
+
+
+\end{document}
