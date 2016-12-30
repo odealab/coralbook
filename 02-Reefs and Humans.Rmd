@@ -1,0 +1,171 @@
+## Setting
+
+``re-written from @Guzman_etal_2005, who cited nobody: `The province of Bocas del Toro is located in western Panama (8°30-9°40 N, 82°56-81°18 W, xxxfig. map). It borders to the west with Costa Rica, to the south and east with the provinces of Chiriquí and Veraguas, respectively, and to the north with the Caribbean sea.
+
+`Generally re-written from @Cramer_2013, who cited nobody:` The archipelago of Bocas del Toro has seven medium-sized islands (`re-writen from @Schloder_etal_2013 who cited nobody`), estuaries and beaches. 
+
+## Geology
+
+`@Guzman_etal_2005: `About 20 Ma ago--before the isthmus of Panama formed--the Bocas del Toro Basin was a deep tropical marine bed (Coates and Jackson 1998, cited in @Guzman_etal_2005). Volcanoes were active between 16-10 Ma and many parts of the archipelago have igneous and sedimentary rocks. When volcanic activity ceased, marine transgressions deposited a sedimentary sequence near the coast, adequate for (a) diverse and abundant marine fauna to settle, (b) new species of reef coral and benthic foraminifers to originate, and (c) reefs to form (Coates and Jackson 1998,  Collins et al. 1996, cited in @Guzman_etal_2005).
+
+Sea level changed substantially over the past 9500 years and strongly shaped the Bocas del Toro archipelago in important ways, and affected the bathymetry, topography and separation between islands and the mainland.
+
+The current shape of the archipelago settled when sea level stabilized around 6000 years ago, in the mid-Holocene (Summers et al. 1997, cited in @Guzman_etal_2005). Evidenced of this was found in Isla Colon, where multiple corals from a fossil reef dated within the mid-Holocene consistently [@Fredston_etal_2013].
+
+Today, reefs range from patch to fringing and from environments exposed to off-shore swell--typically, with sandy beaches or reef flats--to environments protected into lagoons--typically, with fringing mangroves and extensive seagrass beds.
+
+## Geography
+
+`re-written from @Cramer_2013, who cited nobody: `Because mountain ranges divide each side the isthmus of Panama, the drainage basins and microclimates are distinct towards the Pacific and Caribbean. `re-writen from @Guzman_etal_2005: `Near the Caribbean littoral and in Bocas del Toro, a mountain chain (50-400 m high) runs parallel to the coast and closer than 3.5 km from Chiriquí and Bahía Almirante lagoons (xxx IGNTG 1988 cited in @Guzman_etal_2005). 
+
+Chiriquí and Bahía Almirante are the two semi-enclosed lagoons in which the archipelago of Bocas del Toro is divided. They are connected through mangrove channels and they both open to the ocean (Carruthers et al. 2005, D’Croz et al. 2005, cited in @Schloder_etal_2013). 
+
+`re-writen from @Guzman_etal_2005: `Both lagoons receive several rivers. Because the distance between the mountains and coast is short, river flow after the rains increases immediately. This forms a lens of superficial water that is approximately 0.5 m thick and rich in suspended organic material. This affects both lagoons but more strongly to because the large Cricamola river feeds directly into its lagoon` (re-writen from @Guzman_etal_2005 and @Cramer_2013)`. Yet, Bahía Almirante receives creeks that drain the floodplain of the Changuinola River (northwest of the bay) through extensive banana plantations and input sediments and pollutants (Guzmán and Jimenez 1992, Guzmán and Garcia 2002, Guzmán 2003, cited in @Cramer_2013).
+
+## Climate
+
+The climate is typical of the wet Caribbean. Precipitation in Bocas del Toro is 330 cm annually (Cubit et al. 1989, Kaufmann and Thompson 2005, cited in @Cramer_2013).
+
+The dry and rainy seasons are not clearly defined. Generally, rainfall is lower in March and between September-October and higher in July and December (Kaufman and Thompson, cited in @Guzman_etal_2005)
+
+## Vegetation
+
+The vegetation is mainly banana plantations, clear-felled cattle lands and rainforest on the mainland and lowland wet tropical-forest on the islands (xxx Carruthers et al. 2005, xxxCramer et al. 2012, xxx Cramer 2013 cited in @Schloder_etal_2013).
+
+## Oceanography
+
+`re-writen from @Guzman_etal_2005: `The continental shelf in Bocas del Toro is narrow and the maximum depth along the coast ranges 20-50 m. Surf and tides are more important outside than inside the archipelago. Tides may be mixed, semidiurnal or diurnal. Their amplitude ranges below 0.5 m and are higher than usual during the dry season because of the Northeast winds (xxx Glynn 1972 cited in @Guzman_etal_2005).
+
+`re-writen from @Guzman_etal_2005: `The main current that influences the coast of Panama flows from West to East and, because it comes closer to its coast, it may affect Bocas del Toro more strongly from June-August(DMA 1988; Greb et al. 1996, cited in @Guzman_etal_2005).
+
+Winds that more strongly influence the archipelago blow from the North and Northeast but their effect on tides and surf is reduced by the northern islands and reefs (DMA 1988, cited in @Guzman_etal_2005).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Caribbean reefs
+
+Since the 1970s, coral reefs in the Caribbean changed massively: the cover of live corals decreased and that of macroalgae increased in unprecedented manner [@Jackson_etal_2014](Aronson and Precht 1997, Greenstein et al. 1998, cited in @Fredston_etal_2013). This is anomalous (Silvia Earle, 1972) and indicates that reefs have severely declined [@Jackson_etal_2014]. This degradation was ultimately caused by human impacts, strongly linked to the rocketing growth of human population, tourism and shipping, via overexplotation of natural resources and spread of disease [@Jackson_etal_2014]. The most likely mechanisms and most evident proximate causes unfolded in the following sequence.
+
+`re-writen from @Jackson_etal_2014, excecutive summary, who cited nobody (need to go to the extended version for references: `Between mid 1970s and early 1980s, enormous shipping through the Panama Canal facilitated alien species, including disease, to invade the Caribbean sea. White band disease infected and massively killed _Acropora_ corals. An unidentified disease also infected and massively killed _Diadema_ sea urchins. _Diadema_ and parrot fish are both hervivores and key in regulating the balance between macroalgae and corals in reefs. Because humans had overexploited parrot fish, when _Diadema_ died-off, macroalgae bloomed and reefs--originally dominated by corals--became dominated by macroalge. This phase-shift peaked by mid 1990s and continues today. Recently, greater overfishing, pollution, numbers of tourists and of extreeme warming events have worsen coral reefs.
+
+
+
+
+
+
+
+
+
+
+
+## Human ocupation and impact
+
+Humans have potentially affected land and sea in Bocas del Toro ever since sea level stabilized around its current position and coral reefs developed but human impact here has become dramatic only recently [@Cramer_2013].
+
+Humans have cleared the land and fished marine coasts in Central America since around 10,000 years ago [@Cramer_2013]. By then, they had already occupied the Pacific coast of Panama [@Fredston_etal_2013]. In Bocas del Toro, however, the earliest hunters and gatherers were recorded around 5000 years ago (Ranere and Cooke 1991, Cooke 2005, cited in @Fredston_etal_2013) and the earliest human settlements and fishing activities, around 1500 years ago (Wake et al. 2004, 2013, cited in @Fredston_etal_2013). 
+
+When the Spanish arrived to America, approximately 500 years ago, human population in Bocas del Toro had depleted the largest animals from mangroves, seagrass meadows, and coral reefs (Wing and Wing 2001, Pandolfi et al. 2003, cited in @Cramer_2013).
+
+Then, the most catastrophic mortality that resulted from European contact was that of indigenous peoples. Population recovered pre-contact levels in the 1800s [@Cramer_2013] but it was distributed sparsely until 1900s--because the orography and climate of Bocas del Toro was challenging for human settlement and agriculture--(@Cramer_2013). Soon after, human activities caused rapid environmental change and had the greatest impact on ecosystems in Bocas del Toro.
+
+`re-writen from @Seemann_etal_2014: `Since 1915, mainland and islands in Bocas del Toro have been deforested to grow and export bananas. Channels have been dredged and ships have been departing from Almirante port, crossing Bahia Almirante and exiting into the Caribbean sea through Bocas del Drago (xxx Greb et al. 1996, cited in @Seemann_etal_2014). Cumulatively, deforestation, dredging and shipping has caused erosion, sediments, nutrients and pollution to increase (xxx Berry et al. 2013, xxx Burke et al. 2004, , cited in @Seemann_etal_2014). Since 1993, population and tourism have dramatically increased (xxx Guerrón-Montero 2005, cited in @Seemann_etal_2014), coasts extensively developed, marine resources overfished and destructive fishing methods used. Consequently, ecosystems have substantially changed over the past few decades, (xxx Saric 2005, cited in @Seemann_etal_2014).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Ecology
+
+A detailed description of the ecological structure of coral reefs in Bocas del Toro is available elsewhere (including Laguna de Chiriqui: @Guzman_etal_1998_a, Islas Bastimentos, Solarte, Carenero and Colón: @Guzman_etal_1998_b, islas Pastores, Cristóbal, Popa and Cayo Agua: @Guzman_etal_1999, and Península Valiente: @Guzman_etal_2001).
+
+###  Bahia Almirante
+
+Bahía Almirante hosts 53% (33) of all the species of reef coral found in Panama [@Guzman_etal_1999, @Guzman_etal_1998_a]. In this bay, reefs are more extensively developed than in Chiriqui Lagoon--which receives river runoff more directly (Guzmán and Guevara 1998a, D’Croz et al. 2005, Guzmán et al. 2005, @Cramer_2013). 
+However, vertical development is limited to a maximum depth of 23 m, below that light is insufficient for corals to grow (Guzman_etal_1998_a). Around the beginning of the 21st century, coral cover ranged 20-50% and averaged 35% [@Guzman_etal_1998_a]. Species distributed vertically similarly across the bay: _Porites furcata_ (90% cover) dominated down to 2 m depth and _Agaricia tenuifolia_ (40% cover) from 2-6 m. The depth range from 6-15 m was composed by _A. tenuifolia_, _Madracis mirabilis_, and _Siderastrea siderea_ (15%, 7% and 5%, respectively). _S. siderea_ and coralline algae dominated deeper waters. Sponges where the second most important sessile organism and were found in all reefs. 
+
+### Isla Colon
+
+Facing Bahia Almirante and along the leeward coast of Isla Colon, reefs form an almost continuous barrier [@Guzman_etal_1998_a]. Around the center of the island, corals and algae covered 26.9% and 21.4% of the reefs in mid 2000s, while richness of reef coral species was 17 [@Guzman_etal_2005].
+
+### Recent status
+
+More recently, between 2010-2011, cover and richness of reef corals in Bahia Almirante was <10% and 7 species, respectively [@Seemann_etal_2014]. _Porites furcata_ was dominant reef coral and adult and carnivorous fish species were absent [@Seemann_etal_2014].
+
+### Main environmental factors affecting the ecology
+
+The ecology of coral reefs in Bahia Almirante, in particular, is strongly influenced by the Changuinola river. Its plumes enter the bay through an inlet at Boca del Drago [@Seemann_etal_2014]. (This, however, does not explain why Punta Caracol is healthier than Casa Blanca and has _Acropora cervicornis_ which is assumed to be highly sensitive to sedimentation.)
+
+The environmental pressure of riverine waters can accumulate  with other factors and impact reefs ecology. For example, coral bleaching in September 2010 killed corals worldwide. Coral mortality and degradation of reef ecosystems was particularly extensive in Bocas del Toro (NOAA 2010, cited in @Seemann_etal_2014). Here, not only sea temperatures increased but also salinity lowered because seasonal rain fall was high and oxygen depleted because water exchange was limited (Kaufmann and Thompson 2005, cited in @Seemann_etal_2014).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Shifts in ecology
+
+Until recently, _Acropora cervicornis_ (Lamarck, 1816) and _Acropora palmata_ (Lamarck, 1816) had dominated fringing or lagoonal reefs in Bocas del Toro ever since around 2 Ma. Importantly, they dominated since the mid-Holocene (~8000-4000 years ago, xxxref), when sea level stabilized around its current position and reefs comparable to modern reefs developed (Aronson et al. 2004, Klaus et al. 2011, Cramer et al. 2012, Cramer 2013, Fredston-Hermann et al. 2013, cited in @Schloder_etal_2013).
+
+For example, Lennond reef--a mid-Holocene reef from the leeward side of Isla Colon, in Bahia Almirante--was dominated by _A. cervicornis_, _Montastraea "annularis"_ (Ellis and Solander, 1786), and _Porites furcata_ [@Fredston_etal_2013]. These assembly of species suggests that Lennond reef was 0-15 m deep (Mesolella 1967, Aronson et al. 2004, cited in @Fredston_etal_2013). This is considering that some species inhabit shallower waters than typical if the environment is protected. For example, _A. cervicornis_ occurs as deep as 25 m in exposed environments or as shallow as 5 m in protected environments (Rützler and Macintyre 1982, Aronson and Precht 2001, cited in @Fredston_etal_2013).
+
+_Acropora_ and _Porites_ corals also dominated reefs in Bocas del Toro during the late-Holocene (~4000-0 years ago, xxxref) (Aronson et al. 2004, Cramer et al. 2012, cited in @Fredston_etal_2013). Today, _Porites_ remains abundant and _Agaricia tenuifolia_ (Dana, 1846) became important too (Guzman and Guevara 1998) but _Acropora_ has catastrophically declined  (Cramer et al. 2012, cited in @Fredston_etal_2013).
+
+If the ecological change observed in coral reefs from Bocas del Toro is analysed in the context of the history of human occupation and impact, it seems likely that water clarity had an importat role. Intensive land clearing resulted in water to become more turbid, so _Acropora_ corals (Rogers 1990, @Cramer_etal_2012), which love light were replaced by _Porites_ and _Agaricia_ corals that resist turbid-water better [@Cramer_etal_2012].
+
+
+
+
+
+
+
+
+
+## Resilience
+
+Once they degrade severely, reefs can struggle to recover and, eventually, reefs  loose important ecosystem functions. Reefs from Bocas del Toro were experimentally degraded and two years after their fate was unclear: some recovered to pre-disturbance conditions but some did not [@Schloder_etal_2013]. The impact on ecosystem functions may not be immediate. Dead dead coral rubble can still host sessile infauna but eventually the three-dimensional structure of the reef flattens and looses biodiversity [@Nelson_etal_2016]. Reefs with high three-dimensional structure are more resilient to bleaching (ref Graham 2015?). 
+
+In Bocas del Toro and many reefs worldwide, the greater builder of three-dimensional has historically been_Acropora_ corals (xxx ref). Because _Acropora_ is almost extinct in the Caribbean (xxx ref Cramer?), the resilience of coral reefs here and in Bocas del Toro in particular is seriously compromised.
+
+
+
+
