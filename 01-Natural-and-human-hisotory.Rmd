@@ -1,5 +1,7 @@
 # Natural and human history
 
+This chapter is a literature review in progress.
+
 ## Setting
 
 `re-written from @Guzman_etal_2005, who cited nobody: `The province of Bocas del Toro is located in western Panama (8°30-9°40 N, 82°56-81°18 W, xxxfig. map). It borders to the west with Costa Rica, to the south and east with the provinces of Chiriquí and Veraguas, respectively, and to the north with the Caribbean sea.
@@ -131,6 +133,5 @@ Once they degrade severely, reefs can struggle to recover and, eventually, reefs
 
 In Bocas del Toro and many reefs worldwide, the greater builder of three-dimensional has historically been_Acropora_ corals (xxx ref). Because _Acropora_ is almost extinct in the Caribbean (xxx ref Cramer?), the resilience of coral reefs here and in Bocas del Toro in particular is seriously compromised.
 
-
-
+## References
 

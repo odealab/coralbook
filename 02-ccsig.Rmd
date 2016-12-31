@@ -1,0 +1,8 @@
+# CCSIG
+
+This chapter provides a window into this webpage: https://ccsig.github.io. It could be transformed with relatively little effort into a regular book chapter, not an html.
+
+```{r, echo=FALSE}
+knitr::include_url("https://ccsig.github.io") 
+```
+
