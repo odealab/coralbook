@@ -2,7 +2,7 @@
 
 ## Setting
 
-``re-written from @Guzman_etal_2005, who cited nobody: `The province of Bocas del Toro is located in western Panama (8°30-9°40 N, 82°56-81°18 W, xxxfig. map). It borders to the west with Costa Rica, to the south and east with the provinces of Chiriquí and Veraguas, respectively, and to the north with the Caribbean sea.
+`re-written from @Guzman_etal_2005, who cited nobody: `The province of Bocas del Toro is located in western Panama (8°30-9°40 N, 82°56-81°18 W, xxxfig. map). It borders to the west with Costa Rica, to the south and east with the provinces of Chiriquí and Veraguas, respectively, and to the north with the Caribbean sea.
 
 `Generally re-written from @Cramer_2013, who cited nobody:` The archipelago of Bocas del Toro has seven medium-sized islands (`re-writen from @Schloder_etal_2013 who cited nobody`), estuaries and beaches. 
 
