@@ -8,6 +8,6 @@ documentclass: book
 bibliography: [references.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: odealab/coralbook
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook. This book focuses on reef corals in Bocas del Toro, Panama."
 ---
