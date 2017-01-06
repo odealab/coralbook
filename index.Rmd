@@ -8,7 +8,7 @@ output:
   bookdown::gitbook: default
   bookdown::pdf_book: default
   bookdown::epub_book: default
-bibliography: [references.bib, packages.bib]
+bibliography: [references.bib, packages.bib, ../backlight/backlight_references.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: odealab/coralbook
