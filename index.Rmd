@@ -1,5 +1,5 @@
 --- 
-title: "A Minimal Example of the Coral Book"
+title: "Coral Reefs from Bocas del Toro"
 author: "The coral team, O'Dea lab"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site

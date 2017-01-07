@@ -1,6 +1,10 @@
-# Natural and human history
+# Coral reefs, humans and impact
 
-(This chapter is a literature review in progress.)
+## Introduction
+
+```{r, child="../backlight/caribbeanReefs.Rmd"}
+
+```
 
 ## Setting
 
@@ -33,22 +37,4 @@
 ```
 
 
-
-## Consequences in reefs in the wider Caribbean region
-
-Since the 1970s, coral reefs in the Caribbean changed massively: the cover of live corals decreased and that of macroalgae increased in unprecedented manner [@Jackson_etal_2014](Aronson and Precht 1997, Greenstein et al. 1998, cited in @Fredston_etal_2013). This is anomalous (Silvia Earle, 1972) and indicates that reefs have severely declined [@Jackson_etal_2014]. This degradation was ultimately caused by human impacts, strongly linked to the rocketing growth of human population, tourism and shipping, via overexplotation of natural resources and spread of disease [@Jackson_etal_2014]. The most likely mechanisms and most evident proximate causes unfolded in the following sequence.
-
-`re-writen from @Jackson_etal_2014, excecutive summary, who cited nobody (need to go to the extended version for references: `Between mid 1970s and early 1980s, enormous shipping through the Panama Canal facilitated alien species, including disease, to invade the Caribbean sea. White band disease infected and massively killed _Acropora_ corals. An unidentified disease also infected and massively killed _Diadema_ sea urchins. _Diadema_ and parrot fish are both hervivores and key in regulating the balance between macroalgae and corals in reefs. Because humans had overexploited parrot fish, when _Diadema_ died-off, macroalgae bloomed and reefs--originally dominated by corals--became dominated by macroalge. This phase-shift peaked by mid 1990s and continues today. Recently, greater overfishing, pollution, numbers of tourists and of extreeme warming events have worsen coral reefs.
-
-
-
-## Consequences in reefs in Bocas del Toro region
-
-Until recently, _Acropora cervicornis_ (Lamarck, 1816) and _Acropora palmata_ (Lamarck, 1816) had dominated fringing or lagoonal reefs in Bocas del Toro ever since around 2 Ma. Importantly, they dominated since the mid-Holocene (~8000-4000 years ago, xxxref), when sea level stabilized around its current position and reefs comparable to modern reefs developed (Aronson et al. 2004, Klaus et al. 2011, Cramer et al. 2012, Cramer 2013, Fredston-Hermann et al. 2013, cited in @Schloder_etal_2013).
-
-For example, Lennond reef--a mid-Holocene reef from the leeward side of Isla Colon, in Bahia Almirante--was dominated by _A. cervicornis_, _Montastraea "annularis"_ (Ellis and Solander, 1786), and _Porites furcata_ [@Fredston_etal_2013]. These assembly of species suggests that Lennond reef was 0-15 m deep (Mesolella 1967, Aronson et al. 2004, cited in @Fredston_etal_2013). This is considering that some species inhabit shallower waters than typical if the environment is protected. For example, _A. cervicornis_ occurs as deep as 25 m in exposed environments or as shallow as 5 m in protected environments (Rützler and Macintyre 1982, Aronson and Precht 2001, cited in @Fredston_etal_2013).
-
-_Acropora_ and _Porites_ corals also dominated reefs in Bocas del Toro during the late-Holocene (~4000-0 years ago, xxxref) (Aronson et al. 2004, Cramer et al. 2012, cited in @Fredston_etal_2013). Today, _Porites_ remains abundant and _Agaricia tenuifolia_ (Dana, 1846) became important too (Guzman and Guevara 1998) but _Acropora_ has catastrophically declined  (Cramer et al. 2012, cited in @Fredston_etal_2013).
-
-If the ecological change observed in coral reefs from Bocas del Toro is analysed in the context of the history of human occupation and impact, it seems likely that water clarity had an importat role. Intensive land clearing resulted in water to become more turbid, so _Acropora_ corals (Rogers 1990, @Cramer_etal_2012), which love light were replaced by _Porites_ and _Agaricia_ corals that resist turbid-water better [@Cramer_etal_2012].
 
