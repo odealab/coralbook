@@ -1,40 +1,11 @@
 # Coral reefs, humans and impact
 
-## Introduction
+## Coral reefs in Bocas del Toro, humans and impact {-}
 
-```{r, child="../backlight/caribbeanReefs.Rmd"}
-
-```
-
-## Setting
-
-```{r, child="../backlight/setting.Rmd"}
+```{r, child="../backlight/reefs_humans_impacts.Rmd"}
 
 ```
 
-## Human occupation and impact
-
-```{r, child="../backlight/humans_ecology.Rmd"}
-
-```
-
-## Ecological shifts
-
-```{r, child="../backlight/ecologicalShifts.Rmd"}
-
-```
-
-## Ecology
-
-```{r, child="../backlight/ecology.Rmd"}
-
-```
-
-## Resilience
-
-```{r, child="../backlight/resilience.Rmd"}
-
-```
 
 
 
