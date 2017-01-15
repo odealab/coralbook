@@ -1,8 +1,8 @@
 # Gallery
 
-This chapter provides a window into this webpage: https://ccsig.github.io/gallery. It should develop into the reference collection. For that, we need to take original photos of all coral fragments and provide whatever information we decide is necessary (e.g. sample from which the fragment came from and (a link to) a look-up table with the site name, GPS coordinates and similar contextual data.
+This chapter provides a window into this webpage: https://odealab.github.io/ccsig-gallery/. It should develop into the reference collection. For that, we need to take original photos of all coral fragments and provide whatever information we decide is necessary (e.g. sample from which the fragment came from and (a link to) a look-up table with the site name, GPS coordinates and similar contextual data.
 
 ```{r, echo=FALSE}
-knitr::include_url("https://ccsig.github.io/gallery") 
+knitr::include_url("https://odealab.github.io/ccsig-gallery/") 
 ```
 
