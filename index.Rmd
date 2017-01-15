@@ -14,3 +14,14 @@ link-citations: yes
 github-repo: odealab/coralbook
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook. This book focuses on reef corals in Bocas del Toro, Panama."
 ---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  echo = FALSE
+  )
+```
+

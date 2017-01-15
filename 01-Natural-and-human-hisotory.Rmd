@@ -1,7 +1,5 @@
 # Coral reefs, humans and impact
 
-## Coral reefs in Bocas del Toro, humans and impact {-}
-
 ```{r, child="../backlight/reefs_humans_impacts.Rmd"}
 
 ```
